@@ -1,0 +1,35 @@
+PART 1: FLEXBOX
+
+HINT:
+- Remember to keep the "flex" in Flexbox. Don't use the "width" property for specifying box widths. 
+
+ANSWER: https://codepen.io/jen4web/pen/ZgMRJy
+
+PART 2: GRID
+
+HINTS: 
+Three types of Grid syntax might include:
+- line-based placement, like grid-column: 1 / 3; 
+- use the "span" keyword, like grid-column: span 2;
+- use grid area notation
+
+ANSWERS:
+- Grid with span syntax: https://codepen.io/jen4web/pen/MNqqwd
+- Grid with number syntax: https://codepen.io/jen4web/pen/LwJBXG
+- Grid with grid area syntax: https://codepen.io/jen4web/pen/qeMMba
+
+PART 3: MEASURE
+
+- Pixels: fixed unit of measure (discrete unit - can not have a haft pixel)
+
+> Grid
+- 1fr (fraction): unique grid unit
+syntax
+- span: take it and go across two columns
+- number: use 'grid-column'
+- grid-template-areas (define region of page)
+
+? which syntax is better
+grid-template-areas : 
+- really easy to put in spans across rows and columns
+- Lovely diagram you have
