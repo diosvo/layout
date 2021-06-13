@@ -1,6 +1,6 @@
 header .row {
-  display  : flex;
-  flex-flow: row nowrap;
+  display    : flex;
+  flex-flow  : row nowrap;
   align-items: center;
 }
 
@@ -25,4 +25,33 @@ header .row {
 .menu-toggle:hover,
 .menu-toggle:focus {
   color: #c85028;
+}
+
+.main-menu {
+  position: fixed;
+  display : none;
+  left    : -200px;
+  top     : 0;
+
+  height    : 100%;
+  overflow-x: visible;
+  overflow-y: auto;
+
+  transition: left 0.3s ease;
+  z-index   : 999;
+}
+
+.main-menu div {
+  display   : block;
+  width     : 200px;
+  min-height: 100%;
+
+  padding         : 1rem;
+  background-color: #1a1a1a;
+}
+
+.main-menu .menu-close {
+  position: 0;
+  right   : 0;
+  top     : 0;
 }
