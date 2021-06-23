@@ -1,0 +1,7 @@
+CHAPTER 3: CSS CALC() & CUSTOM PROPERTIES
+
+RESOURCES:
+https://github.com/jen4web/fem-adv-css-layout/blob/master/03-calc%20and%20cp%20overview/fem-calc-cp.pdf
+
+RWD 2.0 Reading List
+https://codepen.io/jen4web/post/rwd20readinglist
